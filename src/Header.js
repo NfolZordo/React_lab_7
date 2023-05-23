@@ -1,6 +1,5 @@
-// import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import { render } from 'react-test-renderer';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState, useEffect } from "react";
 import {
   Navbar,
@@ -17,7 +16,7 @@ import Home from './Pages/Home';
 import Contacts from './Pages/Contacts';
 import About from './Pages/About';
 import Blog from './Pages/Blog';
-// import logo from "./logo192.png";
+import logo from "./logo192.png";
 
 
 function Header() {
@@ -86,13 +85,13 @@ function Header() {
       <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">
-            {/* <img
+            <img
               src={logo}
               height="30"
               width="30"
               className="d-inline-block align-top"
               alt="Logo"
-            /> React Site */}
+            /> React Site
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: 'space-between' }}>
